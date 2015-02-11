@@ -4,7 +4,7 @@ screen -t pfitmap
 screen -t server
 screen -t autotest
 chdir db
-screen -t psql 
+screen -t mysql 
 chdir ..
 chdir spec
 screen -t spec
