@@ -6,8 +6,8 @@ screen -t autotest
 chdir db
 screen -t mysql 
 chdir ..
-chdir spec
-screen -t spec
+chdir test
+screen -t test
 chdir ..
 chdir app
 screen -t app
