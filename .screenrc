@@ -2,7 +2,7 @@ sessionname pfitmap-2
 setenv ROOT $PWD
 screen -t pfitmap
 screen -t server
-screen -t autotest
+screen -t guard
 chdir db
 screen -t mysql 
 chdir ..
