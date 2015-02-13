@@ -1,6 +1,9 @@
 Rails.application.configure do
   # Settings specified here will take precedence over those in config/application.rb.
 
+  # Reqired by devise
+  config.action_mailer.default_url_options = { host: 'rnrdb.dbb.su.se', port: 80 }
+
   # Code is not reloaded between requests.
   config.cache_classes = true
 
