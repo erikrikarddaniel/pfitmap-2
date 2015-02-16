@@ -37,6 +37,7 @@ group :development do
   # Use Capistrano for deployment
   gem 'capistrano', '~> 3.3'
   gem 'capistrano-rails', '~> 1.1'
+  gem 'capistrano-rails-collection'
   gem 'capistrano-passenger'
   gem 'capistrano-bundler', '~> 1.1'
   gem 'capistrano-rvm'
