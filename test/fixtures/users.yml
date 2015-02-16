@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  provider: OpenID
+  uid: 4
+  name: Daniel Lundin
+  email: test0@test.com
+
+two:
+  provider: OpenID
+  uid: 5
+  name: Helena Lundin
+  email: test1@test.com
