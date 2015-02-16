@@ -18,6 +18,7 @@ gem 'bootstrap-sass', '~>3'
 
 gem 'omniauth'
 gem 'omniauth-openid'
+gem "omniauth-google-oauth2"
 
 # Use jquery as the JavaScript library
 gem 'jquery-rails'
