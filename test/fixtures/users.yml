@@ -1,11 +1,6 @@
 # Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
 
-giraffen:
+daniel:
   name: Daniel Lundin
   email: daniel.lundin@xyz.se
-  password_digest: <%= User.digest('password') %>
-
-russet:
-  name: Helena Fredriksson
-  email: helena@hfredriksson.org
   password_digest: <%= User.digest('password') %>
