@@ -1,0 +1,34 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Protfamily:</strong>
+  <%= @protein.protfamily %>
+</p>
+
+<p>
+  <strong>Protclass:</strong>
+  <%= @protein.protclass %>
+</p>
+
+<p>
+  <strong>Protsubclass:</strong>
+  <%= @protein.protsubclass %>
+</p>
+
+<p>
+  <strong>Protgroup:</strong>
+  <%= @protein.protgroup %>
+</p>
+
+<p>
+  <strong>Protsubgroup:</strong>
+  <%= @protein.protsubgroup %>
+</p>
+
+<p>
+  <strong>Protsubsubgroup:</strong>
+  <%= @protein.protsubsubgroup %>
+</p>
+
+<%= link_to 'Edit', edit_protein_path(@protein) %> |
+<%= link_to 'Back', proteins_path %>

@@ -1,0 +1,37 @@
+<p id="notice"><%= notice %></p>
+
+<h1>Listing Proteins</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Protfamily</th>
+      <th>Protclass</th>
+      <th>Protsubclass</th>
+      <th>Protgroup</th>
+      <th>Protsubgroup</th>
+      <th>Protsubsubgroup</th>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @proteins.each do |protein| %>
+      <tr>
+        <td><%= protein.protfamily %></td>
+        <td><%= protein.protclass %></td>
+        <td><%= protein.protsubclass %></td>
+        <td><%= protein.protgroup %></td>
+        <td><%= protein.protsubgroup %></td>
+        <td><%= protein.protsubsubgroup %></td>
+        <td><%= link_to 'Show', protein %></td>
+        <td><%= link_to 'Edit', edit_protein_path(protein) %></td>
+        <td><%= link_to 'Destroy', protein, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Protein', new_protein_path %>

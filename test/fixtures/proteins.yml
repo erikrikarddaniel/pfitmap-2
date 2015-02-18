@@ -1,0 +1,17 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  protfamily: MyString
+  protclass: MyString
+  protsubclass: MyString
+  protgroup: MyString
+  protsubgroup: MyString
+  protsubsubgroup: MyString
+
+two:
+  protfamily: MyString
+  protclass: MyString
+  protsubclass: MyString
+  protgroup: MyString
+  protsubgroup: MyString
+  protsubsubgroup: MyString
