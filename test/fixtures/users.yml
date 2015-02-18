@@ -4,6 +4,7 @@ daniel:
   name: Daniel Lundin
   email: daniel.lundin@xyz.se
   password_digest: <%= User.digest('password') %>
+  admin: true
 
 russet:
   name: N N
