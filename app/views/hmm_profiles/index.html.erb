@@ -1,0 +1,33 @@
+<p id="notice"><%= notice %></p>
+
+<h1>Listing Hmm Profiles</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Rank</th>
+      <th>Desc</th>
+      <th>Hmm profile</th>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @hmm_profiles.each do |hmm_profile| %>
+      <tr>
+        <td><%= hmm_profile.name %></td>
+        <td><%= hmm_profile.rank %></td>
+        <td><%= hmm_profile.desc %></td>
+        <td><%= hmm_profile.hmm_profile %></td>
+        <td><%= link_to 'Show', hmm_profile %></td>
+        <td><%= link_to 'Edit', edit_hmm_profile_path(hmm_profile) %></td>
+        <td><%= link_to 'Destroy', hmm_profile, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Hmm profile', new_hmm_profile_path %>

@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+NrdA:
+  name: NrdA
+  rank: protclass
+  desc: Catalytic component of class I RNR
+  hmm_profile_id: 
+
+NrdB:
+  name: NrdB
+  rank: protclass
+  desc: Radical-generating component of class I RNR
+  hmm_profile_id: 

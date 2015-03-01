@@ -1,0 +1,24 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @hmm_profile.name %>
+</p>
+
+<p>
+  <strong>Rank:</strong>
+  <%= @hmm_profile.rank %>
+</p>
+
+<p>
+  <strong>Desc:</strong>
+  <%= @hmm_profile.desc %>
+</p>
+
+<p>
+  <strong>Hmm profile:</strong>
+  <%= @hmm_profile.hmm_profile %>
+</p>
+
+<%= link_to 'Edit', edit_hmm_profile_path(@hmm_profile) %> |
+<%= link_to 'Back', hmm_profiles_path %>
