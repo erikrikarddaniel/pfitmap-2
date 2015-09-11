@@ -23,4 +23,5 @@ class HmmProfileTest < ActiveSupport::TestCase
   end
 
   test 'should be a child of NrdA' do
+  end
 end
